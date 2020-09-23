@@ -1,0 +1,139 @@
+section{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#top {
+	padding-top:30px;
+}
+
+p{
+	text-align:justify;
+	line-height:25px;
+	font-family: 'Arial', sans-serif;
+}
+
+body{
+	background-color: #EAE0D5;
+	margin: 0px;
+	font-family: 'Poetsen One';
+
+}
+
+nav{
+	width: 100%;
+	height: 70px;
+	background-color: #C6AC8F;
+	color: white;
+	text-align:center;
+	position:fixed;
+}
+
+nav a, nav h3{
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+	color:white;
+
+}
+
+a {
+ font-size: 25px;
+}
+
+video {
+	
+	width: 300px;
+	padding-left: 60px;
+	
+}
+
+
+nav a:hover{
+	color:lightgrey; 
+}
+
+header{
+
+	color:#5B3000; 
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align:center;
+}
+
+
+footer{
+	background-color: #C6AC8F;
+	color: white; 
+	padding-top: 2px;
+	padding-bottom: 50px;
+}
+
+*{
+	box-sizing: border-box; 
+
+}
+
+
+h1 {
+	font-size:30px;
+}
+
+
+.para1{
+	width: 100%;
+	overflow: hidden;
+}
+
+
+.Paragraph{
+	width: 90%;
+	margin: 0 auto;
+	
+}
+
+
+
+.image1 {
+	float: left;
+	width: 50%;
+	padding: 2px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .image2 {
+	float: left;
+	width: 47%;
+	padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .image3 {
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+    /* Clearfix (clear floats) */
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	  }
+.box{
+	padding-top:20px;
+}
